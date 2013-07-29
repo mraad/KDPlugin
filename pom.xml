@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <bukkit.version>1.6.2-R0.1-SNAPSHOT</bukkit.version>
         <bigmemory.version>4.0.0</bigmemory.version>
-        <ehcache-ee.version>2.7.0</ehcache-ee.version>
+        <ehcache.version>2.7.2</ehcache.version>
         <slf4j.version>1.6.6</slf4j.version>
     </properties>
 
@@ -36,19 +36,19 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>org.terracotta.bigmemory</groupId>
+            <groupId>org.terracotta</groupId>
             <artifactId>bigmemory</artifactId>
             <version>${bigmemory.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.terracotta.bigmemory</groupId>
+            <groupId>org.terracotta</groupId>
             <artifactId>terracotta-toolkit-runtime-ee</artifactId>
             <version>${bigmemory.version}</version>
         </dependency>
         <dependency>
             <groupId>net.sf.ehcache</groupId>
-            <artifactId>ehcache-ee</artifactId>
-            <version>${ehcache-ee.version}</version>
+            <artifactId>ehcache</artifactId>
+            <version>${ehcache.version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
