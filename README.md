@@ -29,7 +29,7 @@ Before building this plugin:
 
     $ mvn package
 
-Copy the packaged jar to the craftbukkit server plugins folder, and any dependencies to the libs subfolder (This folder will not exist first time through, make sure to create it).
+Copy the packaged jar to the craftbukkit server plugins folder, and any dependencies to the _libs_ subfolder (This folder will not exist first time through, make sure to create it).
 In case case, here is what I do:
 
     $ cp target/KDPlugin-1.0-SNAPSHOT.jar ~/BukkitServer-1.6.2/plugins/
