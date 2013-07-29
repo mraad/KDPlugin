@@ -4,5 +4,6 @@
 *.ear
 *.iml
 *.sh
-target
 .idea
+.DS_Store
+target
