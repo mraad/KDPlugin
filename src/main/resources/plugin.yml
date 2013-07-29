@@ -1,0 +1,10 @@
+name: ${artifactId}
+main: ${groupId}.${artifactId}
+version: ${version}
+load: startup
+author: mraad@esri.com
+
+commands:
+  bm:
+    description: Load BigMemory data
+    usage: /<command> world-name [color] [max-value] [max-height]
