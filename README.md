@@ -56,3 +56,5 @@ The command _bm_ is defined in the plugin and expects 4 arguments:
 
 The execution of the command connects to the BigMemory server and read the items defined in the _infousa_ set.
 A stack of colored blocks will be created at the item geolocation and the height of the stack is proportional to the item value.
+
+A video of the plugin in action can be found [here](http://thunderheadxpler.blogspot.com/2013/07/minecraft-gamification-of-bigdata.html)
